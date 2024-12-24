@@ -33,12 +33,6 @@
       <version>4.19.1</version>
     </dependency>
 
-    <!-- Selenium DevTools -->
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-devtools-v131</artifactId>
-      <version>4.19.1</version>
-    </dependency>
 
     <!-- HTTPClient -->
     <dependency>
@@ -167,10 +161,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.11.0</version>
+        <version>3.8.1</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>17</source>
+          <target>17</target>
         </configuration>
       </plugin>
 

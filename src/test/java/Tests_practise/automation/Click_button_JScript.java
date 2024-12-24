@@ -30,9 +30,7 @@ public class Click_button_JScript {
         WebElement button = driver.findElement(By.xpath("//button[@type='submit']"));
         js.executeScript("arguments[0].click();",button );
 
-
-
-//        driver.quit();
+        driver.quit();
 
     }
 }
