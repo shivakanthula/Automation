@@ -77,9 +77,9 @@ public class Array_codes {
 
         int[] arr = {1,4,99,7,3,9,20,22,25,11,2};
 
-//        using_Arraymethod(arr);
-//        Withoutusing_Arr(arr);
-//        second_large();
+        using_Arraymethod(arr);
+        Withoutusing_Arr(arr);
+        second_large();
         min_max();
 
     }
