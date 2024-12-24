@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationSuite" parallel="false" verbose="1">
+    <test name="GoogleSearchTest">
+        <classes>
+            <class name="Tests_practise.automation.GoogleSearch"/>
+        </classes>
+    </test>
+</suite>
