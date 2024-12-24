@@ -1,0 +1,9 @@
+git config user.name "shiakanthula"
+git config user.email "shivakanthula@gmail.com"
+
+git commit --amend --author="shiakanthula <shivakanthula@gmail.com>"
+
+git config --global user.name "shiakanthula"
+git config --global user.email "shivakanthula@gmail.com"
+
+
