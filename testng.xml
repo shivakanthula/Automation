@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+    <test  name="C:/Users/shiva kumar/IdeaProjects/maven-project/src
+    /test/java/Tests_practise/TestNG/CrossBrowserTesting.java">
+       <parameter name="browser" value="chrome"/>
+        <classes>
+        <class name ="CrossBrowserTesting"/>
+        </classes>
+    </test>
+</suite>

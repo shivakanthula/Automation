@@ -21,7 +21,7 @@ class Ignoring {
 
     @Test()
     public void methodInIgnoredClass() {
-        System.out.println("This method will not run because the class is ignored.");
+        System.out.println("This method will not run because this class is ignored.");
     }
 }
 

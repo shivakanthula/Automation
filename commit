@@ -1,0 +1,197 @@
+[33mcommit 176421e58f6bf915292d8bd3f0b6a5d6eae50940[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: ba353fe 7460503
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Feb 18 16:02:50 2025 +0530
+
+    Merge branch 'master' of https://github.com/shivakanthula/Automation
+
+[33mcommit ba353fec64e973c50c0318e4d06fa47e82e9d505[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Feb 18 15:52:22 2025 +0530
+
+    init commit -m my first commit
+
+[33mcommit 746050364861fc1e6551bc91d80a35ee0beb0ded[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: f2a0743 18f5fe1
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 22:48:47 2024 +0530
+
+    Merge branch 'regressionBranch'
+
+[33mcommit f2a07433445d1cd7ff9f810965de50164f924d10[m
+Merge: 64cbfc8 6c80b68
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 22:42:01 2024 +0530
+
+    Merge branch 'master' of https://github.com/shivakanthula/Automation
+
+[33mcommit 18f5fe1d0b6b195f4cc50e3917a7a6670ad104e2[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 22:37:04 2024 +0530
+
+     new commit in regressionBranch
+
+[33mcommit 6c80b6877b2b9f80ecfb55ea61a7c787251fd924[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 17:38:12 2024 +0530
+
+    latest changes
+     :x
+    
+     \
+
+[33mcommit 2adbd52fd8f81ac96ece6e87be4ffcd771295a10[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 17:27:03 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 9ad295b3e09ab22eb86d61391d32e3002b0bcc3e[m
+Merge: 308c6c6 7277c93
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 17:23:28 2024 +0530
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 308c6c649fb3a0428c1a43dce654580e346f0010[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 16:34:36 2024 +0530
+
+    Restored deleted folder
+
+[33mcommit 7277c93ef023a84d52bb6b2d2f5658d9458ecfec[m
+Merge: 834247e aada3c2
+Author: shivakanthula <98867290+shivakanthula@users.noreply.github.com>
+Date:   Tue Dec 24 15:24:00 2024 +0530
+
+    Merge pull request #1 from shivakanthula/local
+    
+    changes are made merge the code
+
+[33mcommit aada3c270cd07c87ae87913f009400f144e6b8c4[m[33m ([m[1;31morigin/local[m[33m)[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 15:14:07 2024 +0530
+
+    changes are made
+
+[33mcommit 834247e3697a51c31c98b116337436397935898f[m
+Merge: 27b1b6b 833e5e1
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 12:46:09 2024 +0530
+
+    Merge branch 'master' of https://github.com/shivakanthula/Automation
+
+[33mcommit 27b1b6b982347f1c88aacd13e4c3109b2826b12a[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 12:36:03 2024 +0530
+
+    Second commit
+
+[33mcommit b2ef89843ac7c7c57b5c2a7dd3f2a1e7f246a18b[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 12:27:20 2024 +0530
+
+    commiting txt using bash
+
+[33mcommit 6f56338b4a4526e482d888266b0237bc276c3ad6[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 11:21:25 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 833e5e170d537da3d56852ea209551dfcc1abf71[m
+Author: shivakanthula <98867290+shivakanthula@users.noreply.github.com>
+Date:   Tue Dec 24 11:20:11 2024 +0530
+
+    Delete src directory
+
+[33mcommit db5f573349b3b132c1eee6f63bc9ac845d3f1f48[m
+Author: shiakanthula <shivakanthula@gmail.com>
+Date:   Tue Dec 24 11:14:19 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 617baafe68587092f6947187e9a80ae8c83db787[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Tue Dec 24 11:01:36 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 5b973d90e8e35e9fb6f00095b23fe768c0b65ba5[m
+Merge: 7ea9a43 ef75314
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Tue Dec 24 10:55:40 2024 +0530
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 64cbfc815bb22716d71257636b1d964c1f447f2a[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Tue Dec 24 10:52:19 2024 +0530
+
+    message
+
+[33mcommit 7ea9a43782e75f879d4fe11b19b9080d0dcc082c[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:48:41 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit fd62a63e81d375991d619d100f7819e2d42f227e[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:45:08 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 4bd5c906b8b1e0f41e43a99fd4d32f5e0bacf3ee[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:44:49 2024 +0530
+
+    init commit -m my first commit
+
+[33mcommit 06f680212be2082f7d956b6727b232a1fb39c231[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:42:11 2024 +0530
+
+    init commit -m my first TestNG commit
+
+[33mcommit e732b618ae0ecc058c7896ccd9a226cd61b7483b[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:39:37 2024 +0530
+
+    init commit -m my first TestNG commit
+
+[33mcommit 96571b5e31d8cc06b067d1cf07dc24570ea961c5[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:38:28 2024 +0530
+
+    init commit -m my first TestNG commit
+
+[33mcommit ef75314e59c1e68c20147feb6038c75221b371fb[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:32:54 2024 +0530
+
+    deleted files
+
+[33mcommit 7f55035b118f9ce49ad4c974db1af015d4870116[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:23:12 2024 +0530
+
+    removed the files
+
+[33mcommit 98864c50ec501151bd3da156f87fb602d6d5245f[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:02:59 2024 +0530
+
+    init commit -m my first TestNG commit
+
+[33mcommit a20db14a9be257fe8bf149996f4b90675d55c269[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:02:18 2024 +0530
+
+    init commit -m my first TestNG commit
+
+[33mcommit 5f915cb577014569177682f9ac17ca11a3afcde3[m
+Author: shivakrishna addikicherla <92807995+shivakrishna0102@users.noreply.github.com>
+Date:   Mon Dec 23 23:00:36 2024 +0530
+
+    init commit -m my first TestNG commit

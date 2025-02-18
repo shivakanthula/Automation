@@ -19,6 +19,7 @@ public class Click_button_JScript {
         driver.get("https://www.linkedin.com/feed/");
         WebElement user = driver.findElement(By.id("username"));
 
+// Sending input to text box without using sendKeys()---
         js.executeScript("arguments[0].value='shivakanthula@gmail.com';",user);
 
 //        user.sendKeys("shivakanthula@gmail.com");
@@ -27,6 +28,7 @@ public class Click_button_JScript {
 //        psw.sendKeys("Shiv@777");
         js.executeScript("arguments[0].value='Shiv@777';",psw);
 
+// clicking button without using click()
         WebElement button = driver.findElement(By.xpath("//button[@type='submit']"));
         js.executeScript("arguments[0].click();",button );
 

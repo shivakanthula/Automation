@@ -20,10 +20,10 @@ public class sort_wordposition {
 
         String swap = "";
         for (int i = 0; i < s.length() - 1; i = i + 2) {
-            swap += s.charAt(i + 1) + s.charAt(i); // Concatenating characters
+            swap =swap+ s.charAt(i + 1) + s.charAt(i); // Concatenating characters
         }
         if (swap.length() % 2 != 0) {
-            swap += s.charAt(s.length() - 1); // Handle odd-length strings
+            swap =swap + s.charAt(s.length() - 1); // Handle odd-length strings
         }
         System.out.println(swap);
     }
@@ -32,7 +32,7 @@ public class sort_wordposition {
 
     public static void main (String[] args){
 
-        swapalternate("Hii shiva kumar kanthula namaste hii");
+        swapalternate("Hii shiva kumar hii");
         //shiva hii kanthula kumar namaste hii
         swap_char("hii swamy");
 

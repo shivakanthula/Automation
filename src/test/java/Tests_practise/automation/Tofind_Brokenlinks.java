@@ -28,19 +28,17 @@ public class Tofind_Brokenlinks {
 // This method returns a list of all elements on the page that have the <a> tag.
 //Each item in the List is a WebElement
 //A WebElement provides methods like getText(), getAttribute(), click(), etc.
-
         try {
             int brokenlinks = 0;
             for (WebElement link : links) {
                 String url = link.getAttribute("href");
 //The href attribute of each <a> tag is fetched using getAttribute("href").
-
                 if (url == null || url.isEmpty()) {
-                    System.out.println("empty links : " + url);
+                    System.out.println(" links : " + url);
+
                     continue;
                 }
 // HttpURLConnection is a class in the java.net package.
-
                 HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
                 connection.setRequestMethod("HEAD");
 //The HEAD request method is similar to a GET request but does not return the body of the response.
@@ -54,7 +52,6 @@ public class Tofind_Brokenlinks {
                     System.out.println("brokenliks " + url + "error code:- " + responsecode);
                     brokenlinks++;
                 }
-
             }
             System.out.println("Number of broken links: " + brokenlinks);
         }

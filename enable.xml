@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+                                   name="C:/Users/shiva kumar/IdeaProjects/maven-project/src/test/java/Tests_practise/TestNG/Onemore_paramexample.java">
+    <classes>
+        <class name="Tests_practise.TestNG.Paramters_Types">
+</class>
+</classes>
+</test></suite>

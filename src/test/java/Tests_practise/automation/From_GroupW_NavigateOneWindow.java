@@ -22,15 +22,12 @@ public class From_GroupW_NavigateOneWindow {
 //        driver.quit();
 
         Set<String> handles = driver.getWindowHandles();
-
         for ( String windows : handles){
             driver.switchTo().window(windows);
-
             if(!windows.equals(guru)){
                 driver.close();
             }
         }
-
         driver.switchTo().window(guru);
         System.out.println("Title Name " + driver.getTitle() );
     }

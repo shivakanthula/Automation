@@ -13,7 +13,8 @@ import java.util.function.Function;
 
 public class Webdriver_waits {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Throwable {
+// Throwable can catch any exception or error because it is the parent of all exceptions in Java.
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -21,19 +22,22 @@ public class Webdriver_waits {
       //Declaring explicitwait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.get("https://www.javatpoint.com/selenium-interview-questions");
+
       // declaring webDriverWait or ExplicitWait
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(25));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         WebElement find =  wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("nav-link")));
         find.click();
         System.out.println(" waited sucessfully");
 
       // fluent Wait
-        Wait<WebDriver> Fwait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
-                .pollingEvery(Duration.ofNanos(100)).ignoring(NoSuchElementException.class);
+        FluentWait<WebDriver> Fwait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30)) // Maximum wait time
+                .pollingEvery(Duration.ofMillis(500)) // Polling interval
+                .ignoring(NoSuchElementException.class); // Ignore specific exceptions
+
         String  print  = Fwait.until(WebDriver::getWindowHandle);
         System.out.println(print.toString());
-       //   driver.quit();
-
+          driver.quit();
 
     }
 }

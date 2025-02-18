@@ -26,11 +26,11 @@ public class Multiple_windows {
         //Switching to the child window using Set interface
        Set<String> multiplewindows = driver.getWindowHandles();
        System.out.println(multiplewindows);
-       for (String windows : multiplewindows){
-           if(!multiplewindows.equals(w1)){ // Iterating through each window
-               driver.switchTo().window(windows);
+       for (String windows : multiplewindows){  // Iterating through all window handles
+           if(!windows.equals(mainwindow)){  // Check if it's NOT the parent window
+               driver.switchTo().window(windows); // Switch to child window
                System.out.println(driver.getTitle());
-               driver.quit();
+               driver.close();  // Close the child window
            }
            driver.switchTo().window(mainwindow); //Switching back to the main window
        }
